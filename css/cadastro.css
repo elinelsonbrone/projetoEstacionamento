@@ -426,3 +426,10 @@ h2, li{
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+dialog{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0, 0, 0 , .3);
+}
+
+

@@ -1,0 +1,41 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+button{
+ background: #fdfdfd;
+ color: #332200;
+ border: 2px solid #332200;
+ padding: .3rem .6rem;
+ font-size: 1rem;
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+}
+
+button:hover{
+  background: linear-gradient(#ffbf00, #f2a50c);
+}
+
+button:hover > i{
+  color:  #332200;
+}
+
+button i{
+  color: linear-gradient(#ffbf00, #f2a50c) ;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+input, select{
+  padding: 0.25rem 0.5rem;
+}
+
+
